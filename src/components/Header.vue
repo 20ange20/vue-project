@@ -17,15 +17,38 @@
 
 
 <style scoped>
-.site-header { background:#0f172a; color:white; position:sticky; top:0; z-index:10 }
-.container { display:flex; align-items:center; justify-content:space-between; padding:12px 16px; max-width:1100px; margin:0 auto }
-.logo { font-size:1.1rem; margin:0 }
-.nav-link { margin-left:12px; color:inherit; text-decoration:none }
-.nav-link.router-link-active { font-weight:700 }
-
-
-@media (max-width:600px){
-.container{padding:10px}
-.nav-link{margin-left:8px;font-size:0.95rem}
+header {
+  background: #1a1b26;
+  color: #cdd6f4;
+  padding: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+nav a {
+  color: #89b4fa;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #f5c2e7;
+  transform: translateY(-2px);
+}
+
+h1 {
+  color: #cdd6f4;
+  font-size: 22px;
+}
+
 </style>

@@ -16,7 +16,22 @@
 
 
 <style scoped>
-.site-footer{margin-top:auto;background:#0b1220;color:#dbeafe;padding:14px 0}
-.container{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;padding:0 16px}
-.links a{margin-left:12px;color:inherit;text-decoration:none}
+footer {
+  background: #1a1b26;
+  color: #cdd6f4;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  border-top: 1px solid #2d2f3b;
+}
+
+footer a {
+  color: #89b4fa;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f5c2e7;
+}
 </style>

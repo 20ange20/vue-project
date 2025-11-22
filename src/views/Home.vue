@@ -20,6 +20,18 @@ import ProjectsList from '../components/ProjectsList.vue'
 
 
 <style scoped>
-.container{max-width:1100px;margin:0 auto;padding:20px 16px}
-.intro{margin-bottom:22px}
+section {
+  color: #cdd6f4;
+}
+
+h1, h2 {
+  color: #f5c2e7;
+}
+
+.home-container {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 0 20px;
+}
 </style>
