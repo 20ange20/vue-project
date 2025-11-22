@@ -1,7 +1,7 @@
 <template>
 <main class="home container">
 <section class="intro">
-<h2>Olá — Eu sou Seu Nome</h2>
+<h2>Olá! Meu nome é Angélica</h2>
 <p>Desenvolvedor(a) Front-end com foco em Vue.js. Aqui estão alguns dos meus trabalhos.</p>
 </section>
 
