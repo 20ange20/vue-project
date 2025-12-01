@@ -1,10 +1,11 @@
 <template>
+  <br>
 <footer class="site-footer">
 <div class="container">
-<div>© {{ new Date().getFullYear() }} — Seu Nome</div>
+<div>© {{ new Date().getFullYear() }} — Angélica</div>
 <div class="links">
 <a href="https://github.com/20ange20" target="_blank" rel="noopener">GitHub</a>
-<a href="https://www.linkedin.com/in/seu-usuario" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://www.linkedin.com/in/ang%C3%A9lica-ferreira-silva-1454052a6/" target="_blank" rel="noopener">LinkedIn</a>
 </div>
 </div>
 </footer>

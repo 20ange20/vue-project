@@ -2,7 +2,7 @@
 <main class="home container">
 <section class="intro">
 <h2>Olá! Meu nome é Angélica</h2>
-<p>Desenvolvedor(a) Front-end com foco em Vue.js. Aqui estão alguns dos meus trabalhos.</p>
+<p>Desenvolvedora Front-end! Aqui estão alguns dos meus trabalhos.</p>
 </section>
 
 
@@ -25,7 +25,7 @@ section {
 }
 
 h1, h2 {
-  color: #f5c2e7;
+  color: #d770bc;
 }
 
 .home-container {

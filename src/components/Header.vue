@@ -1,27 +1,47 @@
 <template>
-<header class="site-header">
-<div class="container">
-<h1 class="logo">Seu Nome</h1>
-<nav>
-<router-link to="/" class="nav-link">Home</router-link>
-<router-link to="/sobre" class="nav-link">Sobre</router-link>
-</nav>
-</div>
-</header>
+  <header class="site-header">
+    <div class="overlay"></div>
+    <div class="container">
+      <nav>
+        <router-link to="/" class="nav-link">Home</router-link>
+        <router-link to="/sobre" class="nav-link">Sobre</router-link>
+      </nav>
+    </div>
+  </header>
 </template>
 
-
 <script setup>
-// componente simples
+
 </script>
 
-
 <style scoped>
-header {
-  background: #1a1b26;
-  color: #cdd6f4;
+.site-header {
+  position: relative;
   padding: 20px 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  color: #cdd6f4;
+
+  /* Imagem de fundo */
+  background-image: url('/img/bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Efeito escuro pra deixar o texto legível */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+  pointer-events: none;
+}
+
+.container {
+  position: relative; /* Para ficar acima da overlay */
+  z-index: 2;
 }
 
 nav {
@@ -50,5 +70,4 @@ h1 {
   color: #cdd6f4;
   font-size: 22px;
 }
-
 </style>

@@ -1,16 +1,16 @@
 <template>
 <main class="container about">
 <h2>Sobre mim</h2>
-<p>Conte uma história curta sobre sua jornada na programação, suas habilidades e o que você busca.</p>
+<p>Cursei Informática Para Internet entre 2023-2025, além da experiência em projetos pessoais.</p>
 
-
+<br> <br>
 <h3>Habilidades técnicas</h3>
 <ul>
-<li>JavaScript (ES6+)</li>
-<li>Vue.js / Vue Router / Vite</li>
-<li>HTML5 &amp; CSS3</li>
+<li>JavaScript</li>
+<li>PHP</li>
+<li>Kotlin</li>
 </ul>
-
+<br> <br>
 
 <h3>Soft skills</h3>
 <ul>
@@ -18,10 +18,10 @@
 <li>Trabalho em equipe</li>
 <li>Resolução de problemas</li>
 </ul>
-
+<br> <br>
 
 <h3>Contato</h3>
-<p>Email: seu@email.com</p>
+<p>Email: angelicaferreirasilva1010@gmail.com</p>
 </main>
 </template>
 
@@ -31,5 +31,9 @@
 
 
 <style scoped>
-.container{max-width:900px;margin:0 auto;padding:20px 16px}
+.container{max-width:900px;margin:0 auto;padding:20px 16px};
+
+.sobre-container {
+  font-family: "Poppins", sans-serif;
+}
 </style>
