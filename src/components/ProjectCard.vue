@@ -38,14 +38,11 @@
       >
         Repositório
       </a>
-
-     
     </div>
 
   </article>
-  
 </template>
-<br></br>
+
 <script setup>
 import { useRouter } from "vue-router";
 
@@ -63,30 +60,29 @@ function openDetail() {
 <style scoped>
 .card {
   background: #d9f6ca;
-  padding: 22px;
-  border-radius: 14px;
-  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  padding: 16px;          /* menor */
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.07);
   transition: transform .25s, box-shadow .25s;
   cursor: pointer;
   width: 100%;
-  min-height: 260px; /* altura mínima padronizada */
+  min-height: 220px;      /* altura menor */
   display: flex;
   flex-direction: column;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 32px rgba(0,0,0,0.12);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
 }
 
-/* Imagem da demo */
+/* Imagem */
 .demo-img-wrapper {
-  display: block;
   width: 100%;
-  height: 180px;
+  height: 140px;          /* menor */
   overflow: hidden;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .demo-img {
@@ -102,62 +98,52 @@ function openDetail() {
 
 /* Conteúdo */
 .title {
-  font-size: 1.25rem;
-  margin: 8px 0;
+  font-size: 1.05rem;      /* menor */
+  margin: 4px 0;
   font-weight: 700;
   color: #690f86;
 }
 
 .desc {
-  font-size: 0.95rem;
-  color: #555;
-  margin-bottom: 14px;
+  font-size: 0.85rem;
+  color: #444;
+  margin-bottom: 10px;
 }
 
 /* Tags */
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 18px;
+  gap: 6px;
+  margin-bottom: 12px;
 }
 
 .tag {
   background: #eef0f6;
-  padding: 4px 10px;
-  border-radius: 8px;
-  font-size: 0.78rem;
+  padding: 3px 8px;
+  border-radius: 7px;
+  font-size: 0.70rem;
   color: #333;
 }
 
 /* Botões */
 .actions {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .btn {
-  padding: 8px 14px;
-  border-radius: 8px;
+  padding: 6px 10px;      /* menor */
+  border-radius: 7px;
   background: #f0f1f7;
   text-decoration: none;
   color: #333;
   font-weight: 600;
+  font-size: 0.78rem;     /* menor */
   transition: background .2s;
 }
 
 .btn:hover {
   background: #e2e4ec;
 }
-
-.demo-btn {
-  background: #993bf6;
-  color: white;
-}
-
-.demo-btn:hover {
-  background: #4d0ab0;
-}
-
-
 </style>

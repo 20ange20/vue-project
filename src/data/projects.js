@@ -18,7 +18,7 @@ description: 'Compare os preços dos principais produtos de beleza do mercado br
 technologies: ['JavaScript', 'API', 'HTML'],
 repo: 'https://github.com/20ange20/Beauty.com',
 demo: 'https://20ange20.github.io/Beauty.com/',
-demoImage: "/src/data/img/id2.png"
+demoImage: "/img/id2.png"
 },
 
 {
@@ -28,7 +28,7 @@ description: 'Leia dicas incríveis para suas próximas viagens! Descubra destin
 technologies: ['JavaScript', 'CSS', 'HTML'],
 repo: 'https://github.com/20ange20/Dicas-de-viagem',
 demo: 'https://20ange20.github.io/Dicas-de-viagem/',
-demoImage: "/src/data/img/id3.png"
+demoImage: "/img/id3.png"
 },
 
 {id: '4',
@@ -37,6 +37,6 @@ description: 'Produtos de qualidade para o seu lanche ser ainda mais gostoso :)'
 technologies: ['HTML', 'JavaScript', 'CSS'],
 repo: 'https://github.com/20ange20/Bakerville-',
 demo: 'https://20ange20.github.io/Bakerville/',
-demoImage: "/src/data/img/id4.png"
+demoImage: "/img/id4.png"
 },
 ]
