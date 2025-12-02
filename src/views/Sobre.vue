@@ -1,7 +1,7 @@
 <template>
 <main class="container about">
 <h2>Sobre mim</h2>
-<p>Cursei Informática Para Internet entre 2023-2025, além da experiência em projetos pessoais.</p>
+<p>Cursei Informática Para Internet entre 2023-2025 (Etec Antônio Furlan), Desing UX/UI (SENAI Barueri),  além de experiência em projetos pessoais.</p>
 
 <br> <br>
 <h3>Habilidades técnicas</h3>

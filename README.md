@@ -8,7 +8,7 @@ Aqui você encontra minha apresentação, meus projetos, tecnologias dominadas e
 ✨ 🔗 Acesse o projeto online
 
 👉 Link da aplicação hospedada:
-https://20ange20.github.io/vue-project/
+https://vue-project-one-ochre.vercel.app/
 
 🛠️ Tecnologias utilizadas
 Frontend
@@ -82,7 +82,7 @@ npm run build
 ☁️ Deploy
 
 O deploy foi realizado usando:
-✔️ GitHub Pages
+✔️ Vercel
 
 
 Este projeto foi desenvolvido para fins acadêmicos.

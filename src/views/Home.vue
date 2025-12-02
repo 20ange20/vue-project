@@ -5,7 +5,7 @@
 <p>Desenvolvedora Front-end! Aqui estão alguns dos meus trabalhos.</p>
 </section>
 
-
+<br>
 <section>
 <h2>Projetos</h2>
 <ProjectsList />
