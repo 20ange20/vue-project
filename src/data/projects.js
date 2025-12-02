@@ -8,7 +8,7 @@ description: 'Ideal para restaurantes, é possível organizar os pratos por cate
 technologies: ['JavaScript', 'API', 'HTML'],
 repo: 'https://github.com/Microsservicos/segundo-servico-cardapio',
 demo: 'https://microsservicos.github.io/segundo-servico-cardapio/',
-demoImage: "/public/img/id1.png"
+demoImage: "/img/id1.png"
 },
 
 
